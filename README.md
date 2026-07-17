@@ -6,7 +6,7 @@ Production-ready Spring Boot template optimized for AI-assisted development and 
 
 Deploy this production-ready template directly to Deployxa Cloud.
 
-[![Deploy with Deployxa](branding/deploy-button.svg)](https://deployxa.com/dashboard/new?repo=https%3A%2F%2Fgithub.com%2Fdeployxa-templates%2Fdeployxa-springboot&template=springboot&framework=other&branch=main&name=deployxa-springboot&runtime=Java+17&package_manager=maven&build_command=.%2Fmvnw+clean+package+-DskipTests&start_command=java+-jar+target%2F%2A.jar&dockerfile=Dockerfile&version=1.0.0&build_time=90s&image_size=320MB&env_vars=PORT%2CSPRING_PROFILES_ACTIVE)
+[![Deploy with Deployxa](branding/deploy-button.svg)](https://deployxa.com/dashboard/new?repo=https://github.com/deployxa-templates/deployxa-springboot)
 
 ### Or deploy using the CLI
 
