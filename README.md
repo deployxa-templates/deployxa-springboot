@@ -6,7 +6,7 @@ Production-ready Spring Boot template optimized for AI-assisted development and 
 
 Deploy this production-ready template directly to Deployxa Cloud.
 
-[![Deploy with Deployxa](branding/deploy-button.svg)](https://deployxa.com/new?template=spring-boot&framework=spring-boot&repo=https://github.com/deployxa-templates/deployxa-springboot&branch=main&source=github&campaign=official-template)
+[![Deploy with Deployxa](branding/deploy-button.svg)](https://deployxa.com/dashboard/new?repo=https%3A%2F%2Fgithub.com%2Fdeployxa-templates%2Fdeployxa-springboot&template=springboot&framework=other&branch=main&name=deployxa-springboot&runtime=Java+17&package_manager=maven&build_command=.%2Fmvnw+clean+package+-DskipTests&start_command=java+-jar+target%2F%2A.jar&dockerfile=Dockerfile&version=1.0.0&build_time=90s&image_size=320MB&env_vars=PORT%2CSPRING_PROFILES_ACTIVE)
 
 ### Or deploy using the CLI
 
@@ -66,9 +66,9 @@ Compatible with major AI tools:
 
 * **Dockerfile**: Advanced production multi-stage container configuration.
 * **docker-compose.yml**: Configured local orchestration stack.
-* **Health Checks**: Endpoint `/health` returning `{"status":"ok"}`.
+* **Health Checks**: Endpoint `/health` returning {"status":"ok"}.
 * **Logging**: Production-grade logging defaults.
-* **Security**: Non-root user permissions, hardened base image.
+* **Security**: Hardened base image, run as non-root user.
 * **CI Actions**: Automated pipeline for building, linting, testing, and Docker validation.
 
 ---
