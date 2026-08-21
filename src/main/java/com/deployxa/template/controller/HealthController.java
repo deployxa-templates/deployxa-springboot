@@ -16,7 +16,7 @@ public class HealthController {
 	@GetMapping("/")
 	public Map<String, Object> home() {
 		Map<String, Object> res = new HashMap<>();
-		res.put("message", "deployxa-spring-boot-release-one");
+		res.put("message", "deployxa-spring-boot-release-two");
 		return res;
 	}
 }
