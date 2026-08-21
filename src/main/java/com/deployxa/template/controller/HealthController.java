@@ -12,4 +12,11 @@ public class HealthController {
 		res.put("status", "ok");
 		return res;
 	}
+
+	@GetMapping("/")
+	public Map<String, Object> home() {
+		Map<String, Object> res = new HashMap<>();
+		res.put("message", "deployxa-spring-boot-release-one");
+		return res;
+	}
 }
